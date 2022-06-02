@@ -8,15 +8,19 @@
     </itunes:owner>
     <itunes:author>Arthur</itunes:author>
     <description>Le podcast des fans d'Harry Potter et des Animaux Fantastiques !</description>
-    <itunes:image href="https://frequence-radio-poudlard.fr/medoa/frp.jpg"/>
+    <itunes:image href="https://frequence-radio-poudlard.fr/media/frp.jpg"/>
     <language>fr-fr</language>
     <link>https://frequence-radio-poudlard.fr/</link>
+    <itunes:category text="leisure" />
+    <itunes:explicit>no</itunes:explicit>
     <item>
       <title>Épisode 0 : bienvenue</title>
       <description>Bienvenue sur FRP, la fréquence radio de Poudlard, un podcast sur Harry Potter et les animaux fantastiques.</description>
+      <link>
       <pubDate>Wednesday, 01 Jun 2022 12:00:00 GMT</pubDate>
       <enclosure url="https://frequence-radio-poudlard.fr/episodes/00.mp3"
                  type="audio/mpeg" length="3597083"/>
+      <link>https://frequence-radio-poudlard.fr/#episode-0</link>
       <itunes:duration>2:29</itunes:duration>
       <guid isPermaLink="false">frpep00</guid>
     </item>
