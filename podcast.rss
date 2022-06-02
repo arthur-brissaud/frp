@@ -8,7 +8,7 @@
     </itunes:owner>
     <itunes:author>Arthur</itunes:author>
     <description>Le podcast des fans d'Harry Potter et des Animaux Fantastiques !</description>
-    <!--<itunes:image href=""/>-->
+    <itunes:image href="https://frequence-radio-poudlard.fr/medoa/frp.jpg"/>
     <language>fr-fr</language>
     <link>https://frequence-radio-poudlard.fr/</link>
     <item>
