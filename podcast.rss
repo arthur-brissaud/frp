@@ -16,7 +16,6 @@
     <item>
       <title>Épisode 0 : bienvenue</title>
       <description>Bienvenue sur FRP, la fréquence radio de Poudlard, un podcast sur Harry Potter et les animaux fantastiques.</description>
-      <link>
       <pubDate>Wednesday, 01 Jun 2022 12:00:00 GMT</pubDate>
       <enclosure url="https://frequence-radio-poudlard.fr/episodes/00.mp3"
                  type="audio/mpeg" length="3597083"/>
