@@ -14,6 +14,16 @@
     <itunes:category text="Leisure" />
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>Épisode 1 : Gryffondor (avec Manon)</title>
+      <description>Bienvenue sur FRP, la fréquence radio de Poudlard, un podcast sur Harry Potter et les animaux fantastiques. Pour ce premier épisode, je suis accompagné de Manon et nous allons parler de la maison Gryffondor.</description>
+      <pubDate>Saturday, 11 Jun 2022 12:00:00 GMT</pubDate>
+      <enclosure url="https://frequence-radio-poudlard.fr/episodes/01.mp3"
+                 type="audio/mpeg" length="14955333"/>
+      <link>https://frequence-radio-poudlard.fr/#episode-0</link>
+      <itunes:duration>10:22</itunes:duration>
+      <guid isPermaLink="false">frpep01</guid>
+    </item>
+    <item>
       <title>Épisode 0 : bienvenue</title>
       <description>Bienvenue sur FRP, la fréquence radio de Poudlard, un podcast sur Harry Potter et les animaux fantastiques.</description>
       <pubDate>Wednesday, 01 Jun 2022 12:00:00 GMT</pubDate>
