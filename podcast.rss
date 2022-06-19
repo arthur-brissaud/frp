@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fréquence Radio de Poudlard</title>
     <itunes:owner>
@@ -13,10 +14,11 @@
     <link>https://frequence-radio-poudlard.fr/</link>
     <itunes:category text="Leisure" />
     <itunes:explicit>no</itunes:explicit>
+    <atom:link href="https://frequence-radio-poudlard.fr/podcast.rss" rel="self" type="application/rss+xml" />
     <item>
       <title>Épisode 2 : Minerva McGonagall</title>
       <description>Bienvenue sur FRP, la fréquence radio de Poudlard, un podcast sur Harry Potter et les animaux fantastiques. Pour ce deuxième épisode, je vais vous parler d'une professeur de métamorphose, de Minerva McGonagall.</description>
-      <pubDate>Sunday, 19 Jun 2022 20:00:00 GMT</pubDate>
+      <pubDate>Sun, 19 Jun 2022 20:00:00 GMT</pubDate>
       <enclosure url="https://frequence-radio-poudlard.fr/episodes/02.mp3"
                  type="audio/mpeg" length="10190598"/>
       <link>https://frequence-radio-poudlard.fr/#episode-2</link>
@@ -26,7 +28,7 @@
     <item>
       <title>Épisode 1 : Gryffondor (avec Manon)</title>
       <description>Bienvenue sur FRP, la fréquence radio de Poudlard, un podcast sur Harry Potter et les animaux fantastiques. Pour ce premier épisode, je suis accompagné de Manon et nous allons parler de la maison Gryffondor.</description>
-      <pubDate>Saturday, 11 Jun 2022 12:00:00 GMT</pubDate>
+      <pubDate>Sat, 11 Jun 2022 12:00:00 GMT</pubDate>
       <enclosure url="https://frequence-radio-poudlard.fr/episodes/01.mp3"
                  type="audio/mpeg" length="14955333"/>
       <link>https://frequence-radio-poudlard.fr/#episode-1</link>
@@ -36,7 +38,7 @@
     <item>
       <title>Épisode 0 : bienvenue</title>
       <description>Bienvenue sur FRP, la fréquence radio de Poudlard, un podcast sur Harry Potter et les animaux fantastiques.</description>
-      <pubDate>Wednesday, 01 Jun 2022 12:00:00 GMT</pubDate>
+      <pubDate>Wed, 01 Jun 2022 12:00:00 GMT</pubDate>
       <enclosure url="https://frequence-radio-poudlard.fr/episodes/00.mp3"
                  type="audio/mpeg" length="3597083"/>
       <link>https://frequence-radio-poudlard.fr/#episode-0</link>
