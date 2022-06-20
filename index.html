@@ -44,23 +44,22 @@
     </style>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9F8Q5YWB6"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-H9F8Q5YWB6', {
-        client_storage: 'none',
-        anonymize_ip: true
-      });
-    </script>
   </head>
   <body>
     <main>
       <div class="container py-4">  
-        <nav class="navbar fixed-top navbar-dark bg-dark">
+        <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="/">FRP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="/index.html">Fréquence Radio de Poudlard</a>
+                <a class="nav-link" href="/episodes.html">Épisodes</a>
+              </div>
+            </div>
           </div>
         </nav>
         
@@ -87,19 +86,19 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <img src="./media/frp-sm.jpeg" class="rounded img-fluid shadow" />
+                <img src="/media/frp-sm.jpeg" class="rounded img-fluid shadow" />
               </div>
-              </div>
+            </div>
           </div>
         </div>
 
         <div class="row mb-5">
           <div class="card p-0 shadow">
-            <img src="./media/mcgonagall_banner.jpeg" class="card-img-top" />
+            <img src="/media/mcgonagall_banner.jpeg" class="card-img-top" />
             <div class="card-body">
               <h5 class="card-title">
                 Épisode 2 : Minerva McGonagall
-                <a class="anchor-link" href="#episode-2"></a>
+                <a class="anchor-link" href="/episodes/02-mcgonagall.html"></a>
               </h5>
               <h6 class="card-subtitle mb-2 text-muted">
                 <span class="badge rounded-pill text-bg-success">new</span>
@@ -112,7 +111,7 @@
                   <figcaption>Écouter l'épisode n°2:</figcaption>
                   <audio
                       controls
-                      src="./episodes/02.mp3">
+                      src="/episodes/02.mp3">
                           Your browser does not support the
                           <code>audio</code> element.
                   </audio>
@@ -123,11 +122,11 @@
 
         <div class="row mb-5">
           <div class="card p-0 shadow">
-            <img src="./media/gryffindor_banner.jpeg" class="card-img-top" />
+            <img src="/media/gryffindor_banner.jpeg" class="card-img-top" />
             <div class="card-body">
               <h5 class="card-title">
                 Épisode 1 : Gryffondor (avec Manon)
-                <a class="anchor-link" href="#episode-1"></a>
+                <a class="anchor-link" href="/episodes/01-gryffondor.html"></a>
               </h5>
               <h6 class="card-subtitle mb-2 text-muted">
                 <small class="text-muted">2022-06-11</small>
@@ -139,7 +138,7 @@
                   <figcaption>Écouter l'épisode n°1:</figcaption>
                   <audio
                       controls
-                      src="./episodes/01.mp3">
+                      src="/episodes/01.mp3">
                           Your browser does not support the
                           <code>audio</code> element.
                   </audio>
@@ -150,11 +149,11 @@
 
         <div class="row">
           <div class="card p-0 shadow">
-            <img src="./media/cravattes.jpeg" class="card-img-top" />
+            <img src="/media/cravattes.jpeg" class="card-img-top" />
             <div class="card-body">
               <h5 class="card-title">
                 Épisode 0 : Bienvenue sur FRP
-                <a class="anchor-link" href="#episode-0"></a>
+                <a class="anchor-link" href="/episodes/00-bienvenue.html"></a>
               </h5>
               <h6 class="card-subtitle mb-2 text-muted">
                 <small class="text-muted">2022-06-01</small>
@@ -167,7 +166,7 @@
                   <figcaption>Écouter l'épisode n°0:</figcaption>
                   <audio
                       controls
-                      src="./episodes/00.mp3">
+                      src="/episodes/00.mp3">
                           Your browser does not support the
                           <code>audio</code> element.
                   </audio>
@@ -183,5 +182,16 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-H9F8Q5YWB6', {
+        client_storage: 'none',
+        anonymize_ip: true
+      });
+    </script>
   </body>
 </html>
