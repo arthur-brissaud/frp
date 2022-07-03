@@ -17,7 +17,7 @@
     <atom:link href="https://frequence-radio-poudlard.fr/podcast.rss" rel="self" type="application/rss+xml" />
     <item>
       <title>Épisode 3 : Serdaigle</title>
-      <description>Bienvenue sur FRP, la fréquence radio de Poudlard, un podcast sur Harry Potter et les animaux fantastiques. Pour ce troisième épisode, je vais vous parler de Serdaigle... Mon site : https://frequence-radio-poudlard.fr</description>
+      <description>Pour ce troisième épisode, je vais vous parler de Serdaigle. Bienvenue sur la fréquence radio de Poudlard, mon site : https://frequence-radio-poudlard.fr</description>
       <pubDate>Sun, 03 Jul 2022 18:30:00 GMT</pubDate>
       <enclosure url="https://frequence-radio-poudlard.fr/episodes/03.mp3"
                  type="audio/mpeg" length="12274542"/>
